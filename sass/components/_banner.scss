@@ -1,0 +1,26 @@
+#block-views-banner-view-block {
+  position: relative;
+}
+
+// #transparency{
+//   position: absolute;
+//   bottom: 0px;
+//   left: 0px;
+//   width: 100%;
+//   height: 25%;
+//   background: black;
+//   @include opacity(0.4);
+// }
+#flexslider-banner-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 10%;
+  color: $menutext;
+  a {
+    color: $menutext;
+  }
+}
+
+.webcaret-banner {
+  height: 100%;
+}

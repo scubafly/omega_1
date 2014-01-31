@@ -1,0 +1,42 @@
+.footer {
+  line-height: 130%;
+}
+.l-footer-wrapper {
+  background: $footerbackground;
+  color: $footertext;
+  width: 100%;
+  @include clearfix;
+  .wrapmyfoot {
+    @include clearfix;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    padding: 1.5em 2em;
+  }
+  .wrapmyfoot > div {
+    float: left;
+    width: 25%;
+    padding-right: 1.8em;
+  }
+  a {
+    color: $footertext;
+  }
+  a:visited {
+    color: $footertext;
+  }
+  a:hover {
+    color: lighten($footertext,20%);
+  }
+}
+.wrapmycopy {
+  @include clearfix;
+  width: 100%;
+  background: $copyrightbackground;
+}
+.l-region--copy {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 2em;
+  float: none;
+}

@@ -1,0 +1,24 @@
+// .l-main {
+//   @include clearfix;
+// }
+
+.jackbasewrapper {
+  margin: 0 auto;
+  padding: 1.5em 2em;
+  max-width: 1280px;
+  width: 95%;
+  position: relative;
+  z-index: 999;
+  top: -1em;
+  background: $background;
+  @include border-top-radius(5px);
+  @include clearfix;
+  > div {
+    float: left;
+    width: 33.333%;
+    padding-right: 1.8em;
+  }
+  p {
+    font-weight: 300;
+  }
+}

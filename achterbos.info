@@ -1,0 +1,44 @@
+name = Achterbos
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/achterbos.normalize.css
+stylesheets[all][] = css/achterbos.hacks.css
+stylesheets[all][] = css/achterbos.styles.css
+stylesheets[all][] = css/achterbos.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/achterbos.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[navigation] = Navigation
+regions[header] = Header
+regions[webcaret_banner] = Banner
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+;regions[contentleft] = Content-left
+;regions[contentcenter] = Content-center
+;regions[contentright] = Content-right
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+;regions[footer2] = Footer2
+;regions[footer3] = Footer3
+;regions[footer4] = Footer4
+;regions[copy] = Copy
+
+; Layout Settings
+layout[jackbase][stylesheets][all][] = css/layouts/jackbase/achterbos-jackbase.layout.css
+layout[jackbase][stylesheets][all][] = css/layouts/off-canvas-jack/off-canvas-jack.layout.css

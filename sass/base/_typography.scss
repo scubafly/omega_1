@@ -1,0 +1,27 @@
+html {
+  font-family: $fontfam;
+  font-size: 100%;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  color: $textcolor;
+  line-height: 140%
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a:hover {
+  color: $textcolor;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, a, strong {
+  font-weight: bold;
+}

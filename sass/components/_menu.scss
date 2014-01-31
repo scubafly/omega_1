@@ -1,0 +1,44 @@
+nav#block-system-main-menu > ul {
+  margin: 0px;
+  list-style: none;
+  float: right;
+  position: relative;
+  li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    list-style: none;
+  }
+  a {
+    display: block;
+    color: $menutext;
+    text-decoration: none;
+    padding: 18px;
+  }
+  a:hover {
+    background: $menubackground-active;
+  }
+  ul {
+    list-style: none;
+    position: absolute;
+    background:#000;
+    margin: 0;
+    padding: 0;
+    background:rgba(255,255,255,0);
+    left: -9999px;
+    z-index: 100;
+    li {
+      margin: 0;
+      float: none;
+    }
+    a {
+      white-space: nowrap;
+    }
+  }
+  li:hover {
+    ul {
+      left: 0;
+      background: $menubackground;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.l-branding {
+  float: left;
+  height: $menubarsize;
+  padding: 18px;
+}
+
+.site-branding__name {
+  height: 100%;
+  padding: 16px;
+  text-decoration: none;
+  color: $menutext;
+}
